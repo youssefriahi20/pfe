@@ -15,7 +15,7 @@ services:
   Task_Management:
     depends_on:
       - mysqldb
-    image: task:latest
+    image: youssefriahi/task:latest
     ports:
       - "8085:8082"
     networks:
